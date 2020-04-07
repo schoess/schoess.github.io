@@ -1,0 +1,13 @@
+/*
+================================
+Contact form
+================================
+*/
+
+.contact-container {
+    background-color: lightgrey;
+    padding: 20px;
+    width: 500px;
+    border-radius: 2%;
+    margin-top: 50px;
+}
