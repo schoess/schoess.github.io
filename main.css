@@ -11,3 +11,25 @@ Contact form
     border-radius: 2%;
     margin-top: 50px;
 }
+
+/*
+================================
+Images
+================================
+*/
+
+#headshot {
+    width: 325px;
+    margin-bottom: 30px;
+}
+
+/*
+================================
+Images
+================================
+*/
+
+#about-me {
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 25px;
+}
