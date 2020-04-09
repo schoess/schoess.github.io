@@ -30,6 +30,18 @@ Images
 */
 
 #about-me {
-    border-bottom: 3px solid lightgrey;
+    border-bottom: 3px solid black;
     padding-bottom: 25px;
+}
+
+/*
+================================
+Index form
+================================
+*/
+
+#index-page {
+    background-color: lightgrey;
+    border-radius: 2%;
+    padding: 20px;
 }
