@@ -45,3 +45,15 @@ Index form
     border-radius: 2%;
     padding: 20px;
 }
+
+/*
+================================
+Portfolio form
+================================
+*/
+
+#portfolio-images {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
