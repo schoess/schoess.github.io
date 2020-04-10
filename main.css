@@ -23,9 +23,18 @@ Images
     margin-bottom: 30px;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Girassol', cursive;
+}
+
 /*
 ================================
-Images
+About-Me
 ================================
 */
 
@@ -57,3 +66,20 @@ Portfolio form
     max-width: 100%;
     height: auto;
 }
+
+/*
+================================
+Typography
+================================
+*/
+
+.col p {
+    font-family: 'Girassol', cursive;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Girassol', cursive;
+}
+
+
