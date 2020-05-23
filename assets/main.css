@@ -26,8 +26,7 @@ Images
 .centered {
     position: absolute;
     top: 90%;
-    left: 45%;
-    transform: translate(-50%, -50%);
+    text-align: center;
     color: black;
     font-family: 'Girassol', cursive;
 }
@@ -93,7 +92,7 @@ h1 {
 .footer-text {
     position: absolute;
     text-align: center; 
-    padding-left: 40%;
+    padding-left: 20px;
 }
 
 /*
