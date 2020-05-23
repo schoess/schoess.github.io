@@ -25,13 +25,16 @@ Images
 
 .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 90%;
+    left: 45%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
     font-family: 'Girassol', cursive;
 }
-
+.portfolio-image {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
 /*
 ================================
 About-Me
@@ -61,10 +64,15 @@ Portfolio form
 ================================
 */
 
-#portfolio-images {
-    margin-bottom: 50px;
-    max-width: 100%;
-    height: auto;
+.portfolio-images {
+    padding-bottom: 50px;
+
+
+}
+.thumbnail {
+    object-fit: cover;
+        width: 300px;
+    height: 300px;
 }
 
 /*
@@ -102,5 +110,11 @@ Footer
     line-height: 60px;
     background-color: lightgrey;
 }
+
+.footer-icons {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    text-align: right;
+} 
 
 
