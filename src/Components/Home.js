@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import Navigation from "./Navigation";
-import { Nav } from "react-bootstrap";
+import Navigation from "./Navigation/Navigation";
 
 class Home extends Component {
     render() {
