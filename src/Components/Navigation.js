@@ -3,8 +3,11 @@ import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
+import Navbar from "react-bootstrap/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-class Navbar extends Component {
+
+class Navigation extends Component {
     render() {
         return (
             <div>
@@ -25,4 +28,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default Navigation;
