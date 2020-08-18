@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
+import Navigation from "./Navigation";
+import { Nav } from "react-bootstrap";
 
 class Home extends Component {
     render() {
         return(
             <div>
-                <h1>Hello World!</h1>
+                <Navigation></Navigation>
             </div>
         )
     }
