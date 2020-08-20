@@ -11,7 +11,7 @@ class Navigation extends Component {
         return (
             <div>
                 <Navbar id="bg-color" variant="dark">
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <img className="nav-logo" src={ logo } alt= "Schoess logo" />
                     </Navbar.Brand>
                         <Nav className="mr-auto" id="text-color">
