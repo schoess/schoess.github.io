@@ -3,5 +3,11 @@
 
 }
 #bg-color {
-    background-color: #f3f7fb;
+    background-color: #25252a;
+    padding-bottom: 50px;
 }
+
+#text-color {
+    color: #f3f7fb !important;
+}
+

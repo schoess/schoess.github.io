@@ -10,11 +10,11 @@ class Navigation extends Component {
     render() {
         return (
             <div>
-                <Navbar bg="dark" id="bg-color" variant="dark">
+                <Navbar id="bg-color" variant="dark">
                     <Navbar.Brand href="#home">
                         <img className="nav-logo" src={ logo } alt= "Schoess logo" />
                     </Navbar.Brand>
-                        <Nav className="mr-auto">
+                        <Nav className="mr-auto" id="text-color">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
