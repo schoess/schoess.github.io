@@ -22,7 +22,12 @@ class Home extends Component {
             <Container className="container">
                 <Row>
                     <Col xs={6} md={4}><img className="headshot" src={ logo } alt= "Headshot of Nick" /></Col>
-                    <Col className="body-text" xs={12} md={8}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Col>
+                    <Col className="body-text" xs={12} md={8}>
+                        <h3 className="home-heading">Driven artist turned full-stack web devloper.</h3>
+                        <p>Growing up as a multi faceted artist, I have always looked for new creative outlets to channel my need to build and create. As I age, and my patience level has risen, I have decided to make a career change and pursue web development. For me, It's a pefect blend of creativity, critical thinking, teamwork and personal growth.</p>
+                        <br />
+                        <p>My passion for most things in life comes from learning. That's why I decided to attend the University of Minnesota Coding Bootcamp for Full-Stack web development after finishing my two previous degrees. I look forward to being a part of a team, learning from those around me, and being a part of something bigger than myself.</p>
+                    </Col>
                 </Row>
             </Container>
 
