@@ -10,11 +10,11 @@ import {
 function App() {
   return (
     <div>
-    <Switch>
-            <Route exact path="/" component= { Home } />
-            <Route exact path="/portfolio" component={ Portfolio } />
-            <Route exact path="/contact" component={ Contact } />
-          </Switch>
+      <Switch>
+        <Route exact path="/" component= { Home } />
+        <Route exact path="/portfolio" component={ Portfolio } />
+        <Route exact path="/contact" component={ Contact } />
+      </Switch>
     </div>
   );
 }
