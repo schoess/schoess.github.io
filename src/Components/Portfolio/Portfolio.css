@@ -1,0 +1,7 @@
+body {
+    background-image: url(../../assets/images/_MG_9251.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
