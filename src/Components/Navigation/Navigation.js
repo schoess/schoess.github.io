@@ -15,9 +15,9 @@ class Navigation extends Component {
                         <img className="nav-logo" src={ logo } alt= "Schoess logo" />
                     </Navbar.Brand>
                         <Nav className="mr-auto" id="text-color">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                            <Nav.Link href="/contact">Contact</Nav.Link>
                         </Nav>
                 </Navbar>
             </div>
