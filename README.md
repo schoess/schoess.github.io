@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 Check out the [DEPLOYED APP](https://schoess-portfolio.herokuapp.com/)!
 
 ## Available Scripts
