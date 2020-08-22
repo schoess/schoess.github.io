@@ -4,6 +4,9 @@ import Foot from "../Foot/Foot";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Portfolio.css";
 import data from "../../assets/seed/data.json"
+import {Helmet} from 'react-helmet';
+import Container from "react-bootstrap/Container";
+import Projects from "../Projects/Projects";
 
 class Portfolio extends Component {
     state = {
@@ -13,8 +16,18 @@ class Portfolio extends Component {
     render() {
         return(
             <div>
+            <Helmet>
+                <style>{'body { background-color: #25252a; }'}</style>
+            </Helmet>
                 <Navigation />
-                <h1>Portfolio!</h1>
+
+                <Container fluid="sm" className="portfolio-container">
+                <Projects
+                    data={this.state.data}
+                />
+                </Container>
+
+
                 <Foot />
             </div>
         )

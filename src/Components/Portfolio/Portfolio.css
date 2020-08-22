@@ -5,3 +5,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.portfolio-container {
+    height: 500px;
+    background-color: #25252a;
+    border-radius: 3px;
+}
