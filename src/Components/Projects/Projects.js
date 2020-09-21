@@ -11,32 +11,33 @@ import "../../assets/images/Budget-Tracker.png";
 import "../../assets/images/MVC_App.png";
 import "../../assets/images/Weather_Dashboard.png";
 import "../../assets/images/Employee-Tracker.png";
+import "../../assets/images/Spark_Forums.PNG";
 
 export default function Projects(props) {
-    return (
-        <div>
-    <CardColumns>
-      {
-        props.data.map(item => (
-          <Card className="card-styles">
-          <Card.Img variant="top" src={item.screenie} />
-          <Card.Body>
-            <Card.Title>{item.name}</Card.Title>
-            <Card.Text>{item.description}</Card.Text>
-          </Card.Body>
-          <Card.Footer>
-        <a href={item.repoLink}>
-          <Button variant="primary">Repo Link</Button>
-        </a>
-        <a href={item.link}>
-          <Button variant="danger">Deployed App</Button>
-        </a>
-          </Card.Footer>
-        </Card>
-        ))
+  return (
+    <div>
+      <CardColumns>
+        {
+          props.data.map(item => (
+            <Card className="card-styles" key={item.id}>
+              <Card.Img variant="top" src={item.screenie} />
+              <Card.Body>
+                <Card.Title>{item.name}</Card.Title>
+                <Card.Text>{item.description}</Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <a href={item.repoLink}>
+                  <Button variant="primary">Repo Link</Button>
+                </a>
+                <a href={item.link}>
+                  <Button variant="danger">Deployed App</Button>
+                </a>
+              </Card.Footer>
+            </Card>
+          ))
 
-}
-</CardColumns>
-        </div>
-    )
+        }
+      </CardColumns>
+    </div>
+  )
 }

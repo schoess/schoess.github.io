@@ -3,16 +3,12 @@ import Navigation from "../Navigation/Navigation";
 import Foot from "../Foot/Foot";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Portfolio.css";
-import data from "../../assets/seed/data.json"
-import {Helmet} from 'react-helmet';
+import { data } from "../../assets/seed/data.js"
+import { Helmet } from 'react-helmet';
 import Container from "react-bootstrap/Container";
 import Projects from "../Projects/Projects";
 
 class Portfolio extends Component {
-    state = {
-        data
-    }
-
     render() {
         return(
             <div>
@@ -23,7 +19,7 @@ class Portfolio extends Component {
 
                 <Container fluid="sm" className="portfolio-container">
                 <Projects
-                    data={this.state.data}
+                    data= {data}
                 />
                 </Container>
 

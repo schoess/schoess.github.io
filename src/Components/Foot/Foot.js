@@ -21,7 +21,7 @@ class Foot extends Component {
                             <a href="https://www.nickschoess.com">
                                 <img className="icons" src={Website} alt="Website Icon"/>
                             </a>
-                            <a href="https://www.instagram.com/schoess.exe/">
+                            <a href="https://www.instagram.com/schoess.jsx/">
                                 <img className="icons" src={Instagram} alt="Instagram Icon"/>
                             </a>
                         </span>

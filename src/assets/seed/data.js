@@ -1,43 +1,45 @@
-[
+
+
+export const data= [
     {
         "id": 1,
+        "name": "Spark Forums",
+        "description": "Open forum platform designed to ignite discussion.",
+        "link": "https://spark-forums.herokuapp.com/",
+        "repoLink":"https://github.com/schoess/Open_Forums",
+        "screenie":require('../../assets/images/Spark_Forums.PNG')
+    },
+    {
+        "id": 2,
         "name": "Songwriter's Lament",
         "description": "This application is a full stack web-app designed to help songwriters' keep track of ideas and songs",
         "link": "https://project-2-schoess.herokuapp.com/",
         "repoLink":"https://github.com/schoess/Songwriters_Lament",
-        "screenie": "'../../assets/images/Songwriters_Lament.png'"
+        "screenie": require('../../assets/images/Songwriters_Lament.png')
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Employee Directory",
         "description": "Employee Directory is a React-App that uses react-router and various filter methods to help you keep track of your employee database",
         "link": "https://employee-directory-schoess.herokuapp.com/",
         "repoLink":"https://github.com/schoess/Employee-Directory",
-        "screenie":"'../../assets/images/Employee-Directory.png'"
+        "screenie": require('../../assets/images/Employee-Directory.png')
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Budget Tracker",
         "description": "This full-stack web app is for keeping track of your budget. It uses Webpack, as well as Mongoose",
         "link": "https://budget-tracker-schoess.herokuapp.com/",
         "repoLink":"https://github.com/schoess/Budget-Tracker",
-        "screenie":"'../../assets/images/Budget-Tracker.png'"
+        "screenie":require('../../assets/images/Budget-Tracker.png')
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "MVC App",
         "description": "Full-Stack web application demonstrating the use of MVC",
         "link": "https://mvc-app-schoess.herokuapp.com/",
         "repoLink":"https://github.com/schoess/MVC_App",
-        "screenie":"'../../assets/images/MVC_App.png'"
-    },
-    {
-        "id": 5,
-        "name": "Weather Dashboard ",
-        "description": "Simple weather app that lets the user search for weather based on their city",
-        "link": "https://schoess.github.io/Weather_Dashboard/",
-        "repoLink":"https://github.com/schoess/Weather_Dashboard",
-        "screenie":"'../../assets/images/Weather_Dashboard.png'"
+        "screenie":require('../../assets/images/MVC_App.png')
     },
     {
         "id": 6,
@@ -45,6 +47,7 @@
         "description": "Full-Stack web app using mySQL to better track your employees",
         "link": "https://github.com/schoess/Employee-Tracker",
         "repoLink":"https://github.com/schoess/Employee-Tracker",
-        "screenie":"'../../assets/images/Employee-Tracker.png'"
+        "screenie":require('../../assets/images/Employee-Tracker.png')
     }
 ]
+
