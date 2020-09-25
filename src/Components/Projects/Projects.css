@@ -1,3 +1,13 @@
 .card-styles {
     width: 366px;
+    margin: auto;
+    align-self: center;
+    background-color: #25252a;
+    color: #f3f7fb;
+}
+
+.card-image {
+    max-width: 350px;
+    max-height: 150px;
+    object-fit: cover;
 }

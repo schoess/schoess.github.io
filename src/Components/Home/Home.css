@@ -4,6 +4,7 @@ body {
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Inconsolata', monospace;
 }
 
 
@@ -25,4 +26,5 @@ body {
 .home-heading {
     padding-bottom: 20px;
     padding-top: 20px;
+    font-weight: 600;
 }

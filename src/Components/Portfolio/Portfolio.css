@@ -7,7 +7,30 @@ body {
 }
 
 .portfolio-container {
-    height: 500px;
-    background-color: #25252a;
+    background-color: #1b1716;
     border-radius: 3px;
+    padding-top: 10px;
+}
+
+.repo-btn {
+    background-color: #1f5d2f;
+    border-color: #1f5d2f;
+}
+
+.deploy-btn {
+    background-color: #38515b;
+    border-color: #38515b;
+    float: right;
+}
+
+.repo-btn:hover {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
+}
+
+.deploy-btn:hover {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
 }

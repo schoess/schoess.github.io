@@ -12,7 +12,7 @@ export const data= [
     {
         "id": 2,
         "name": "Songwriter's Lament",
-        "description": "This application is a full stack web-app designed to help songwriters' keep track of ideas and songs",
+        "description": "A full stack web-app designed to help songwriters' keep track of song ideas",
         "link": "https://project-2-schoess.herokuapp.com/",
         "repoLink":"https://github.com/schoess/Songwriters_Lament",
         "screenie": require('../../assets/images/Songwriters_Lament.png')
@@ -20,7 +20,7 @@ export const data= [
     {
         "id": 3,
         "name": "Employee Directory",
-        "description": "Employee Directory is a React-App that uses react-router and various filter methods to help you keep track of your employee database",
+        "description": "A React-App that helps you keep track of your employee database",
         "link": "https://employee-directory-schoess.herokuapp.com/",
         "repoLink":"https://github.com/schoess/Employee-Directory",
         "screenie": require('../../assets/images/Employee-Directory.png')
@@ -28,7 +28,7 @@ export const data= [
     {
         "id": 4,
         "name": "Budget Tracker",
-        "description": "This full-stack web app is for keeping track of your budget. It uses Webpack, as well as Mongoose",
+        "description": "This full-stack web app for budget tracking using Mongoose",
         "link": "https://budget-tracker-schoess.herokuapp.com/",
         "repoLink":"https://github.com/schoess/Budget-Tracker",
         "screenie":require('../../assets/images/Budget-Tracker.png')

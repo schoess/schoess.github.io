@@ -11,3 +11,12 @@
     color: #f3f7fb !important;
 }
 
+.btn-nav {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn-nav:hover {
+    border-bottom: 1px solid #f3f7fb;
+    color: #f3f7fb !important;
+}

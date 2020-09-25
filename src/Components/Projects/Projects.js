@@ -9,7 +9,6 @@ import "../../assets/images/Songwriters_Lament.png";
 import "../../assets/images/Employee-Directory.png";
 import "../../assets/images/Budget-Tracker.png";
 import "../../assets/images/MVC_App.png";
-import "../../assets/images/Weather_Dashboard.png";
 import "../../assets/images/Employee-Tracker.png";
 import "../../assets/images/Spark_Forums.PNG";
 
@@ -20,17 +19,17 @@ export default function Projects(props) {
         {
           props.data.map(item => (
             <Card className="card-styles" key={item.id}>
-              <Card.Img variant="top" src={item.screenie} />
+              <Card.Img className="card-image" variant="top" src={item.screenie} />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
                 <Card.Text>{item.description}</Card.Text>
               </Card.Body>
               <Card.Footer>
                 <a href={item.repoLink}>
-                  <Button variant="primary">Repo Link</Button>
+                  <Button className="repo-btn" variant="primary">Repo Link</Button>
                 </a>
                 <a href={item.link}>
-                  <Button variant="danger">Deployed App</Button>
+                  <Button className="deploy-btn" variant="danger">Deployed App</Button>
                 </a>
               </Card.Footer>
             </Card>
