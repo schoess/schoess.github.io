@@ -6,7 +6,7 @@ import {Helmet} from 'react-helmet';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import logo from "../../assets/images/IMG_5529.jpg";
+import logo from "../../assets/images/Headshot_upload.jpg";
 import Foot from "../Foot/Foot";
 import "../../themes/theme.css";
 

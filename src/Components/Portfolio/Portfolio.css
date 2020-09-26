@@ -34,3 +34,39 @@ body {
     border-color: #1b1716;
     color: #f3f7fb;
 }
+
+.repo-btn:active {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
+}
+
+.repo-btn:focus {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
+}
+
+.repo-btn:focus-within {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
+}
+
+.deploy-btn:active {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
+}
+
+.deploy-btn:focus {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
+}
+
+.deploy-btn:focus-within {
+    background-color: #1b1716;
+    border-color: #1b1716;
+    color: #f3f7fb;
+}
