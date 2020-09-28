@@ -10,7 +10,7 @@ import {Helmet} from 'react-helmet';
 import Email from "../../assets/images/mail.png";
 import Phone from "../../assets/images/cell.png";
 import Resume from "../../assets/images/portfolio.png";
-import Document from "../../assets/documents/Nick_Schoess_Resume.pdf"
+import Document from "../../assets/documents/Nick_Schoess_Resume_2020.pdf"
 
 
 class Contact extends Component {
