@@ -1,22 +1,23 @@
 .nav-logo {
     width: 175px;
-
 }
-#bg-color {
+
+.bg-color {
     background-color: #25252a;
     margin-bottom: 50px;
 }
 
-#text-color {
+.text-color {
     color: #f3f7fb !important;
 }
 
 .btn-nav {
     margin-left: 10px;
     margin-right: 10px;
+    border-bottom: 2px solid #25252a;
 }
 
 .btn-nav:hover {
-    border-bottom: 1px solid #f3f7fb;
+    border-bottom: 2px solid #f3f7fb;
     color: #f3f7fb !important;
 }
