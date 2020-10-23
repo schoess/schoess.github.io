@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../../assets/images/schoesslogo_white.png";
 import "./Navigation.css";
@@ -15,9 +16,11 @@ class Navigation extends Component {
                         <img className="nav-logo" src={ logo } alt= "Schoess logo" />
                     </Navbar.Brand>
                         <Nav className="mr-auto text-color">
-                            <Nav.Link className="btn-nav" href="/">Home</Nav.Link>
-                            <Nav.Link className="btn-nav" href="/portfolio">Portfolio</Nav.Link>
-                            <Nav.Link className="btn-nav" href="/contact">Contact</Nav.Link>
+                            <NavDropdown className="drop-menu" title="Pages" id="basic-nav-dropdown">
+                                <NavDropdown.Item className="btn-nav" href="/">Home</NavDropdown.Item>
+                                <NavDropdown.Item className="btn-nav" href="/portfolio">Portfolio</NavDropdown.Item>
+                                <NavDropdown.Item className="btn-nav" href="/contact">Contact</NavDropdown.Item>
+                            </NavDropdown>
                         </Nav>
                 </Navbar>
             </div>
