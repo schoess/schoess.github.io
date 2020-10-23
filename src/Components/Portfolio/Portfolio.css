@@ -15,6 +15,7 @@ body {
 .repo-btn {
     background-color: #1f5d2f;
     border-color: #1f5d2f;
+    margin-bottom: 4px;
 }
 
 .deploy-btn {
