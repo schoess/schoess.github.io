@@ -3,7 +3,7 @@
 }
 
 .bg-color {
-    background-color: #25252a;
+    background-color: #25252a !important;
     margin-bottom: 50px;
 }
 
@@ -11,8 +11,14 @@
     color: #f3f7fb !important;
 }
 
+.btn-nav {
+    border-bottom: solid 2px #25252a;
+    border-top: solid 2px #25252a;
+}
+
 .btn-nav:hover {
-    background-color: #1f5d2f;
+    border-bottom: solid 2px #1f5d2f;
+    border-top: solid 2px #38515b;
     color: #f3f7fb;
 }
 
